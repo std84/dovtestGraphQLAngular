@@ -1,0 +1,11 @@
+.cube{
+    border: solid 1px silver;
+    padding: 10px;
+    float: left;
+    margin-right:10px;
+    width: 100%;
+}
+.flag-img{
+    width: 100%;
+}
+.mgn{margin-top: 10px; margin-bottom: 10px;}

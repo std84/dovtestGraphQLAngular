@@ -1,0 +1,16 @@
+<div class="row" >
+  <div class="col-md-6">
+    continate name 
+  </div>
+  <div class="col-md-6">
+    continate code 
+  </div>
+</div>
+<div class="row pointer"  *ngFor="let continate of continate" (click)="continateClick(continate.code)">
+  <div class="col-md-6">
+    {{ continate.name }}
+  </div>
+  <div class="col-md-6">
+    {{ continate.code }}
+  </div>
+</div>
